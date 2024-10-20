@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+     
+        <link href="StylesForForm.css" rel="stylesheet">
+        <title>Форма регистрации</title>
+    </head>
+    <body>
+
+    <form action="" method="post">
+
+      <h2>Регистрация</h2>
+    
+      <label for="name">Имя</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Электронная почта </label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="pass"> Пароль </label>
+      <input type="password" name="pass" id="pass" value="" required>
+
+      <label for="reppass"> Подтверждение пароля </label>
+      <input type="password" name="reppass" id="reppass" minlength="8"
+             minlength="16"required>
+
+      <button type="submit" name="button">Зарегистрироваться</button>
+
+   </form>
+</body>
+</html>
